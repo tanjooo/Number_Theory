@@ -11,7 +11,7 @@ int main(){
         break;
     }
    }
-   if(count==0) printf("%d and %d are co-prime",num1,num2);
-   else printf("%d and %d are not co-prime",num1,num2);
+   if(count==0) printf("%d and %d are co-prime\n",num1,num2);
+   else printf("%d and %d are not co-prime\n",num1,num2);
     return 0;
 }
