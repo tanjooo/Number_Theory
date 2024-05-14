@@ -13,6 +13,7 @@ void Sieve(int n){
     for(int i=2;i<=n;i++){
         if(prime[i]==0) printf("%d ",i);   
     }
+    printf("\n");
 }
 int main(){
     int n,check;
